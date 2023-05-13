@@ -1,4 +1,4 @@
-# 📦 inside-ai
+# 📦 mychatbot
 ```
 ⬆️ (Replace above with your app's name)
 ```
