@@ -4,11 +4,11 @@ from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
 from hugchat import hugchat
 
-st.set_page_config(page_title="HugChat - An LLM-powered Streamlit app")
+st.set_page_config(page_title="Lorenzo - An LLM-powered Streamlit app")
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 HugChat')
+    st.title('🤗💬 Lorenzo')
     st.markdown('''
     ## About
     This app is an LLM-powered chatbot built using:
@@ -24,7 +24,7 @@ with st.sidebar:
 # Generate empty lists for generated and past.
 ## generated stores AI generated responses
 if 'generated' not in st.session_state:
-    st.session_state['generated'] = ["I'm HugChat, What can I help you with?"]
+    st.session_state['generated'] = ["I'm Lorenzo, What can I help you with?"]
 ## past stores User's questions
 if 'past' not in st.session_state:
     st.session_state['past'] = ['Hi!']
